@@ -105,14 +105,55 @@ Dane są:
 	- listy
 	- drzewa
 
-Listy własności - listy par elementów własności - wartość własność.
+**Listy własności** - listy par elementów własności - wartość własność.
 
 Każda dana złożona jest parą danych, stąd rekurencja car-cdr.
 
-Funkcje wyższego rzędu - fukncje, które przyjmują za argument inne funkcje.
+**Funkcje wyższego rzędu** - fukncje, które przyjmują za argument inne funkcje.
 
 Erlang
 -
 
 Silnie typowany.
 Definicja funkcji jest sekwencją klauzul.
+
+Systemy regułowe
+-
+
+Przetwarza dane w postaci symbolicznej za pomocą przejzystych reguł.
+Baza wiedzy opiera się na regułach _IF - THEN_ i składa się z reguł i faktów.
+
+**Przesłanka** to sprawdzenie czy jest relacja _atrybut - wartość_.
+**Konkluzja** to wniosek, który mówi co ma się dziać z atrybutem.
+
+## Fukncje:
+- klasyfikowanie
+- ustalanie przyczyn
+- monitorowanie
+- diagnozowanie
+
+## Cechy faktów
+- niepwene lub pewne
+- deaktualizacja i zmienność
+- opisywanie specyficznych cech obiektu
+- mają pewnien stopień pewności
+
+## Panowanie nad bazą reguł
+- grupowanie reguł
+- sieć zależności
+
+## Rodzaje reguł
+- proste
+- złożone
+
+## Rodzaje wnioskowania na regułach
+- wstecz (reguła, która spełnia naszą hipotezę) - _PROLOG_
+- w przód (reguła, która spełnia nasze warunki) - _CLIPS_
+- drzewo wywodu
+
+## Agenda
+Uprządkowana lista wystąpień reguł, które są dopasowane do faktów z bazy.
+
+Haskell
+-
+
