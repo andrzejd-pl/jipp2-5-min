@@ -1,5 +1,6 @@
 
-# Prolog
+Prolog
+-
 
 Podstawą prologa są:
 - rachunek predykatów I-go rzędu
@@ -21,7 +22,7 @@ Obszary stosowania programowania deklaratywnego:
 	- systemy otwarte
 	- systemy samoopisujace się, zdolne do modyfikowania struktury i zachowań
 
-Termami to:
+## Termami są:
 - stałe (pisane z małej litery) i zmienne (pisane z dużej)
 - symbole funkcyjne z argumentami, które są termami (tzw termy złożone)
 - służą do nazywania bytów
@@ -55,7 +56,7 @@ Strategia prologowa:
 - przegładnie zbioru klauzul kandydujących do redukcji (zgodnie z porządkiem występowania)
 - zaniechanie sprawdzania acykliczności procesu unifikacji
 
-Metapredykaty:
+## Metapredykaty:
 - odcięcie (!):
 	- zawsze spełniony
 	- zmienia wykonywanie nawrotów
@@ -65,8 +66,19 @@ Metapredykaty:
 	- wykonuje nawórt w obliczeniu
 	
 	
-W systemach prologowych istnieje zasada zamkniętego świata (to czego nie ma w programie jest fałszywe).
+**W systemach prologowych istnieje zasada zamkniętego świata (to czego nie ma w programie jest fałszywe).**
 
 Rozwiązywanie problemów:
 - model grafowy - znalezienie drogi w grafie
 - model redukcji zadania - zamiana zadania na prostrze podzadania
+
+
+Pre-interpretacja to para (D, m), gdzie _D_ jest dziedziną interpretacji (niepusty zbiór), a _m_ funkcją semantyki, która stałym, symbolom funkcyjnym i predyktatywnym z języka (języka klauzul Horona) przyporządkowuje, odpowiednio, elementy z _D_, funkcje z _D<sup>k</sup> -> D_ i  relacje na _D<sup>k</sup>_
+
+## Interpretacja Herbranda
+
+Dla programu P:
+- uniwersum Herbranda U<sub>P</sub> to zbiór wszsytkich termów bez zmiennych, zbudowanych ze stałych i symbolów funkcyjnych
+- baza Harbranda B<sub>P</sub> to zbiór atomów z symboli predykatywnych z P i termów z U<sub>P</sub>
+
+
