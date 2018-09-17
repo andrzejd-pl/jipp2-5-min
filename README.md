@@ -1,4 +1,3 @@
-
 Prolog
 -
 
@@ -114,3 +113,6 @@ Funkcje wyższego rzędu - fukncje, które przyjmują za argument inne funkcje.
 
 Erlang
 -
+
+Silnie typowany.
+Definicja funkcji jest sekwencją klauzul.
