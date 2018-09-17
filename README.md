@@ -190,3 +190,16 @@ Pojęcia:
 - Otoczenie - problemdo rozwiązania, wywiera wpływ na osobników za pomocą funkcji przystosowania (ocena rozwiązania problemu)
 
 ## Operacje genetyczne
+- krzyżowanie:
+	- _one point crossover_ - jeden punkt do krzyżowania
+	- _multi point crossover_ - wiele punktów do krzyżowania (zamiany genów)
+	- _uniform crosover_ - kompletne wymieszanie obu genomów (taki duży _multi point_ ?)
+- mutacja - zamiana jednego lub więcej genóœ z losowością równą _częstosci mutacji_, służy do eksploracji przestrzeni rozwiązań:
+	- _bit flip mutatuin_ - zmiana wartości tulko jednego genu
+	- _swap mutation_ - zamiana miejscami dwóch genów
+	- _scramble mutation_ - losowa zamiana miejscami danego odcinka genomu
+
+## Metody wyboru rodziciów
+- _roulette-whell selection_
+- _stochastic universal sampling_
+- _tournament selection_
