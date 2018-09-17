@@ -198,6 +198,10 @@ Pojęcia:
 	- _bit flip mutatuin_ - zmiana wartości tulko jednego genu
 	- _swap mutation_ - zamiana miejscami dwóch genów
 	- _scramble mutation_ - losowa zamiana miejscami danego odcinka genomu
+- selekcja - wybór osobników do krzyżowania:
+	- ranking liniowy
+	- turniej - losowanie osobników i wybranie najlepszego
+	- koło ruletki
 
 ## Metody wyboru rodziciów
 - _roulette-whell selection_
@@ -225,3 +229,35 @@ Pojęcia:
 
 ## Algorytmy genetyczne
 
+### Standardowy algorytm genetyczny - Algorytm Hollanda
+Osobniki są reprezentowaen przez chromosomy w postaci ciągów binarnych. Każdy osobnik jest opisany przez zbiór parametrów p(x,y). Metoda selekcji to _metoda ruletki_.
+
+Operatowy genetyczne:
+- krzyżowanie
+- selekcja
+
+## Programowanie genetyczne
+Osobniki są reprezentowane w postaci drzewa programów.
+Metoda selekcji: **metod turniejowa**.
+Krzyżówka: wybranie poddrzew i zamiana -> stworzenie nowego potomka
+Mutacja: wybranie losowego poddrzewa i zamiana go na nowe wygenerowane poddrzewo.
+
+Duża populacja, mało generacji.
+
+## Zastosowania
+- optymalizacja
+- automatyczne programowanie
+- uczenie robotów i urządzeń
+- badanie systemów społecznych
+- badanie związków między ewolucją a uczeniem się
+- modelowanie zjawisk występujących w ekologii
+- modelowanie procesów występujących w ekonomii
+- systemy CAD
+- modelowanie naturalnych systemów odpornościowych
+- modelowanie zjawisk występujących w populacji genetycznej
+- sztuczna inteligencja
+- rozwiązywanie problemów NP
+- zadania planowania, optymalnego sterowania, wspomagania decyzji
+- gry komputerowe
+- eksploracja dużych danych
+- analiza obrazów
