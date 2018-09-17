@@ -186,3 +186,7 @@ Pojęcia:
 - Chromosom - łańcuch genów (najczęście to są bity), czyli łańcuch bitów
 - Locus - pozycja genu w chromosomie
 - Allel - wartość genu
+- Populacja - zbiór osobników
+- Otoczenie - problemdo rozwiązania, wywiera wpływ na osobników za pomocą funkcji przystosowania (ocena rozwiązania problemu)
+
+## Operacje genetyczne
