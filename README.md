@@ -155,4 +155,27 @@ Uprządkowana lista wystąpień reguł, które są dopasowane do faktów z bazy.
 
 # Haskell #
 
+- język czysto funkcyjny (jest deterministyczny, wynik działania jest zależny tylko od argumentów).
+- silnie typowany
+- modularny
 
+## Leniwe wartościowanie
+Wyznaczane są wyrażenia, które są potrzebne by dać odpowiedź na dany problem.
+
+# Programowanie funkcyjne w OOP #
+
+Zalety:
+- software wolny od bugów
+- wydajne obliczenia równoległe
+- lazy evaluation
+- znacznie krótszy kod od analogicznego napisanego w języku proceduralnym
+- nie obsługujemy mechanizmów przydzielania i zwalniania pamięci.
+
+Rodzaje:
+- _pure function_ (zalezne tylko od przekazanych argumentów)
+- _non-pure functions_ (zależnie nie tylko od przekazanych argumentów) (funkcje typu void są _non-pure_)
+
+## Currying
+Zmiana funkcji z n argumentami na n funkcji z jednym arguemntem.
+
+# Algorytmy ewolucyjne #
