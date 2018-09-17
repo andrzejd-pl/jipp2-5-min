@@ -203,3 +203,20 @@ Pojęcia:
 - _roulette-whell selection_
 - _stochastic universal sampling_
 - _tournament selection_
+
+## Strategie ewolucyjne
+- _1+1_ - najprostrza, populacja dwóch osobników (rodzic i jego mutacja)
+- _1+lambda_ - podobnie jak w _1+1_ tylko powstaje więcej mutacji (lambda-mutacji) i z nich się wybiera rodzica (stary ginie zawsze)
+- reguła 1/5 sukcesów - skokowa zmiana w zależnośći od powodzenia mutacji; jeśli liczba sukcesów kilku ostatnich mutacji jest większa niż <sup>1</sup>/<sub>5</sub> to zwięsza się zakres mutacji; w innym wypadku mutacje zmiejszamy
+- _u+lambda_ - unikanie przestojów w ektremach lokalnych, pula rodzicielska z u-sosbników, wybiera się p rodziców, gdzie p<=u, i powstaje lambda potomków, osobniki są poddawane mutacji i z puli rodzice+dzieci wybieramy u sosbników do następnej iteracji
+
+## Podstawowe trudności przy stosowaniu metod klasycznych
+- Zbieżność algorytmu do rozwiązania optymalnego zależy od wyboru rozwiązania początkowego.
+- Większość algorytmów ma tendencję do utknięcia w rozwiązaniu sub optymalnym.
+- Algorytm, który może być efektywny przy rozwiązywaniu danego problemu optymalizacji, może nie być efektywny przy rozwiązywaniu innego problemu.
+- Algorytmy nie są efektywne w zastosowaniu do problemów z dyskretną przestrzenią poszukiwań.
+- Algorytmy nie mogą zostać w sposób efektywny wykorzystane na równoległych maszynach.
+
+## Algorytmy genetyczne
+
+
