@@ -236,6 +236,11 @@ Operatowy genetyczne:
 - krzyżowanie
 - selekcja
 
+#### Twierdzenie o schematach
+Schematy małego rzędu, o małej rozpiętości i o przystosowaniu powyżej średniej
+otrzymują rosnącą wykładniczo liczbę swoich reprezentantów w kolejnych
+generacjach algorytmu genetycznego.
+
 ## Programowanie genetyczne
 Osobniki są reprezentowane w postaci drzewa programów.
 Metoda selekcji: **metod turniejowa**.
