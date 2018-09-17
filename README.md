@@ -110,3 +110,7 @@ Listy własności - listy par elementów własności - wartość własność.
 
 Każda dana złożona jest parą danych, stąd rekurencja car-cdr.
 
+Funkcje wyższego rzędu - fukncje, które przyjmują za argument inne funkcje.
+
+Erlang
+-
