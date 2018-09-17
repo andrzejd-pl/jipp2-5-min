@@ -217,6 +217,11 @@ Pojęcia:
 - Algorytmy nie są efektywne w zastosowaniu do problemów z dyskretną przestrzenią poszukiwań.
 - Algorytmy nie mogą zostać w sposób efektywny wykorzystane na równoległych maszynach.
 
-## Algorytmy genetyczne
+## Podstawowe cechy algorytmów ewolucyjnych odróżniające je od innych metod
+- Nie przetwarzają one bezpośrednio parametrów zadania, lecz ich zakodowaną postać.
+- Prowadzą poszukiwania, wychodząc nie z pojedynczego punktu, lecz z pewnej ich populacji.
+- Korzystają tylko z funkcji celu, nie zaś z jej pochodnych lub innych pomocniczych informacji.
+- Stosują probabilistyczne a nie deterministyczne reguły wyboru.
 
+## Algorytmy genetyczne
 
