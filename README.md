@@ -179,3 +179,10 @@ Rodzaje:
 Zmiana funkcji z n argumentami na n funkcji z jednym arguemntem.
 
 # Algorytmy ewolucyjne #
+
+Pojęcia:
+- Osobnik - podstawowa jednostka poddawana ewolucji, punkt w przestrzeni poszukiwań
+- Genotyp - reprezentuje osobnika, składa się z chromosomem (najczęściej jednym)
+- Chromosom - łańcuch genów (najczęście to są bity), czyli łańcuch bitów
+- Locus - pozycja genu w chromosomie
+- Allel - wartość genu
