@@ -37,3 +37,36 @@ A :- B1, B2, ..., Bn
 Reguła z pustym ciałem to fakt.
 
 Program to skończony zbiór reguł.
+
+Zasada rezolucji: wykorzystuje metodę "nie wprost" i regułę rezolucji
+
+Wywód rezolucyjny:
+- obliczenie kończy się kiedy dalsza redukcja nie jest możliwa
+- rezolwenta jest pusta -> sukces, w przeciwnym wypadku porażka
+
+Dla danego zapytania może być wiele obliczeń zakończonych sukcesem.
+
+Obliczenia prologowe, trzeba podjąć decyzję:
+- o sposobie wybierania literału aktywnego z rezolwenty (tzw regóła obliczeniowa)
+- o sposobie wybierania klauzuli z programu (tzw reguła przeszukiwania drzewa poszukiwań)
+
+Strategia prologowa:
+- wybieranie skrajnie lewego literału w rezolwencie jako literału aktywnego
+- przegładnie zbioru klauzul kandydujących do redukcji (zgodnie z porządkiem występowania)
+- zaniechanie sprawdzania acykliczności procesu unifikacji
+
+Metapredykaty:
+- odcięcie (!):
+	- zawsze spełniony
+	- zmienia wykonywanie nawrotów
+	- zmniejsza drzewo poszukiwań
+	- jest silnie kontekstowy
+- fail:
+	- wykonuje nawórt w obliczeniu
+	
+	
+W systemach prologowych istnieje zasada zamkniętego świata (to czego nie ma w programie jest fałszywe).
+
+Rozwiązywanie problemów:
+- model grafowy - znalezienie drogi w grafie
+- model redukcji zadania - zamiana zadania na prostrze podzadania
