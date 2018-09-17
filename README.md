@@ -1,5 +1,5 @@
-Prolog
--
+# Prolog #
+
 
 Podstawą prologa są:
 - rachunek predykatów I-go rzędu
@@ -86,8 +86,7 @@ Język L, który jest identyczny z ML, nazywan się językiem samoreprezentując
 
 > Prolog slajd 150
 
-Programowanie funkcyjne
--
+# Programowanie funkcyjne #
 
 Obliczenia to wyznaczanie wartości funkcji.
 
@@ -111,14 +110,14 @@ Każda dana złożona jest parą danych, stąd rekurencja car-cdr.
 
 **Funkcje wyższego rzędu** - fukncje, które przyjmują za argument inne funkcje.
 
-Erlang
--
+# Erlang #
+
 
 Silnie typowany.
 Definicja funkcji jest sekwencją klauzul.
 
-Systemy regułowe
--
+# Systemy regułowe #
+
 
 Przetwarza dane w postaci symbolicznej za pomocą przejzystych reguł.
 Baza wiedzy opiera się na regułach _IF - THEN_ i składa się z reguł i faktów.
@@ -154,6 +153,6 @@ Baza wiedzy opiera się na regułach _IF - THEN_ i składa się z reguł i fakt�
 ## Agenda
 Uprządkowana lista wystąpień reguł, które są dopasowane do faktów z bazy.
 
-Haskell
--
+# Haskell #
+
 
