@@ -57,14 +57,16 @@ Strategia prologowa:
 - zaniechanie sprawdzania acykliczności procesu unifikacji
 
 ## Metapredykaty:
-- odcięcie (!):
+- odcięcie (`!`):
 	- zawsze spełniony
 	- zmienia wykonywanie nawrotów
 	- zmniejsza drzewo poszukiwań
 	- jest silnie kontekstowy
-- fail:
+- `fail`:
 	- wykonuje nawórt w obliczeniu
-	
+- `clause(H, B)` - reprezentacja programu przedmiotowego
+- `assert(C)` - modyfikacje programu przedmiotowego
+- `retractall(C)` - j.w.
 	
 **W systemach prologowych istnieje zasada zamkniętego świata (to czego nie ma w programie jest fałszywe).**
 
@@ -81,4 +83,30 @@ Dla programu P:
 - uniwersum Herbranda U<sub>P</sub> to zbiór wszsytkich termów bez zmiennych, zbudowanych ze stałych i symbolów funkcyjnych
 - baza Harbranda B<sub>P</sub> to zbiór atomów z symboli predykatywnych z P i termów z U<sub>P</sub>
 
+Język L, który jest identyczny z ML, nazywan się językiem samoreprezentującym (zjawisko amalgamacji języków).
+
+> Prolog slajd 150
+
+Programowanie funkcyjne
+-
+
+Obliczenia to wyznaczanie wartości funkcji.
+
+Postawa:
+- rachunek lambda
+
+Dane są:
+- atomami (elementarne):
+	- symbole
+	- liczby
+	- atomy znakowe
+	- atomy boolowskie
+	- łańcuchy
+- parami kropkowymi (złożone):
+	- listy
+	- drzewa
+
+Listy własności - listy par elementów własności - wartość własność.
+
+Każda dana złożona jest parą danych, stąd rekurencja car-cdr.
 
